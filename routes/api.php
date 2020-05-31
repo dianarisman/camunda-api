@@ -19,3 +19,6 @@ use Illuminate\Support\Facades\Route;
     $router->post('taskList', 'camundaController@TaskList');
     $router->post('taskComplate', 'camundaController@TaskComplate');
 
+    //task yg sudah digabungin
+    $router->post('task', 'camundaController@Task');
+
